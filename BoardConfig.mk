@@ -25,6 +25,10 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 
+# 64 bit compilation
+TARGET_USES_64_BIT_BINDER := true
+TARGET_IS_64_BIT := true
+
 TARGET_BOOTLOADER_BOARD_NAME := p8
 
 BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive 
