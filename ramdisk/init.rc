@@ -40,6 +40,7 @@ on init
     # Backward compatibility
     symlink /system/etc /etc
     symlink /sys/kernel/debug /d
+    symlink /vendor/lib64/egl /egl
 
     # Right now vendor lives on the same filesystem as system,
     # but someday that may change.
